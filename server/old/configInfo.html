@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+  <html>
+   <head> 
+       <title>DREAM HOME</title> 
+       <style> 
+          body {
+            text-align:center;
+        }
+          h1 {color:#003399;}
+          h3{color: #003399;text-align: left;}
+          h4{color: #003399;}
+          a {text-decoration: none;color:#FFFFFF;}
+          .contentBox{
+            background-color: antiquewhite;
+            width: 90%;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: 5px 10px 8px #888888;
+            border-radius: 15px;
+            padding: 10px;
+          }
+          .contentInfo{
+              clear: both;
+              margin: 10px;
+          }
+          .inputInfo{
+              float: right;
+              border: none;
+              border-radius: 10px;
+              font-size: 1rem;
+              padding: 5px;
+              color: #003399;
+              width: 60%;
+          }
+          .buttonSubmit{
+            border-radius: 10px;
+            font-size: 1rem;
+            padding: 10px;
+            border-width: 0.5px;
+          }
+       </style>
+       <meta name="viewport" content="width=device-width,user-scalable=0" charset="UTF-8">
+   </head>
+   <body> 
+      <div class="contentBox">
+        <div><h1>Dream Home</h1></div>
+        <div class="contentInfo"><h3>Wifi name:<input class="inputInfo" id="ssid" placeholder="wifi name..."/></h3></div>
+        <div  class="contentInfo"><h3>Password:<input type="password" class="inputInfo" id="pass" placeholder="password..."/></h3></div>
+        <div class="contentInfo"><h3> Key Room:<input class="inputInfo" id="keyroom" placeholder="key room..."/></h3></div>
+        <div class="contentInfo"><h3> Board id:<input class="inputInfo" id="boardDevice" placeholder="Board id..."/></h3></div>
+        <div  class="contentInfo"><h3>IDP key:<input class="inputInfo" id="idpkey" placeholder="idp key..."/></h3></div>
+        <div class="contentInfo" id="reponsetext"></div>
+        <div>
+          <button class="buttonSubmit bt_write" onclick="writeEEPROM()" style="background-color: rgb(161, 255, 73);">CONFIG</button>
+          <button class="buttonSubmit bt_clear" onclick="clearEEPROM()" style="background-color: tomato;">DELETE</button>
+        </div>
+        <h4>Designed by: diot.com</h4>
+      </div>
+      <script>
+        var xhttp = new XMLHttpRequest();
+        //-----------Thiết lập dữ liệu và gửi request ssid và password---
+        function writeEEPROM(){
+          var ssid = document.getElementById("ssid").value;
+          var pass = document.getElementById("pass").value;
+          var keyroom = document.getElementById("keyroom").value;
+          var boardDevice = document.getElementById("boardDevice").value;
+          var idpkey = document.getElementById("idpkey").value
+          xhttp.open("GET","/writeEEPROM?ssid="+ssid+"&pass="+pass+"&keyroom="+keyroom+"&boardDevice="+boardDevice+"&idpkey="+idpkey,true);
+          xhttp.onreadystatechange = process;//nhận reponse 
+          xhttp.send();
+        }
+        function clearEEPROM(){
+          xhttp.open("GET","/clearEEPROM",true);
+          xhttp.onreadystatechange = process;//nhận reponse 
+          xhttp.send();
+        }
+        //-----------Kiểm tra response ------------------
+        function process(){
+          if(xhttp.readyState == 4 && xhttp.status == 200){
+            //------Updat data sử dụng javascript----------
+            ketqua = xhttp.responseText; 
+            document.getElementById("reponsetext").innerHTML=ketqua;       
+          }
+        }
+      </script>
+   </body> 
+  </html>

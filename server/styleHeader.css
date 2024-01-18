@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 0%;
+    background-color: white;
+}
+.navbar-brand>h3{
+    font-family: 'Allura';
+    font-size: 2.8rem;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.3rem;
+    margin-bottom: 0%;
+}
+.left-header{
+    border-radius: 7.5px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.title-header{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    float: left;
+    clear: right;
+}
+.topHeader{
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    clear: both;
+}
+.logoHaui-header{
+    float: left;
+}
+.navbar{
+    float: left;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin-bottom: 10px;
+}
+.menuHome {
+    margin-top: 5px;
+    width: 100%;
+}
+#menu-logout{
+   margin-left: 45%;
+}

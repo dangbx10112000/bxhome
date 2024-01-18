@@ -1,0 +1,155 @@
+Added Component: Designator=C1(CP1.5/3.4)
+Add component (AddParameter): Name = "Description 1"; Value = "2200uF-3300uF/6,3V - 1000uF-2200uF/10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 2"; Value = "1000uF/16V - 470uF => 1000uF/25V - 100uF/100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 3"; Value = "330uF>470uF/35V_220uF>470uF/50V_10uF>22uF/250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 4"; Value = "220uF => 330uF/63V - 10uF =>33uF/160 - 200V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 5"; Value = "4,7uF>10uF/250V_3,3uF>10uF/400V - 2,2uF>4,7uF/450V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000uF/16V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CP1.5/3.4)
+Add component (AddParameter): Name = "Description 1"; Value = "2200uF-3300uF/6,3V - 1000uF-2200uF/10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 2"; Value = "1000uF/16V - 470uF => 1000uF/25V - 100uF/100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 3"; Value = "330uF>470uF/35V_220uF>470uF/50V_10uF>22uF/250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 4"; Value = "220uF => 330uF/63V - 10uF =>33uF/160 - 200V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 5"; Value = "4,7uF>10uF/250V_3,3uF>10uF/400V - 2,2uF>4,7uF/450V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000uF/16V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CN1.5)
+Add component (AddParameter): Name = "Value"; Value = "0.01uF"; VariantName = "[No Variations]"
+Added Component: Designator=JDC1(DC-IN)
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=JP1(JP8)
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(JP8)
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP3(JP8)
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP4(JP8)
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP5(JP7)
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP6(JP7)
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=C1-1
+Added Pin To Net: NetName=+5 Pin=C2-1
+Added Pin To Net: NetName=+5 Pin=C3-2
+Added Pin To Net: NetName=+5 Pin=ESP32?-16
+Added Pin To Net: NetName=+5 Pin=JDC1-1
+Added Pin To Net: NetName=+5 Pin=JP4-1
+Added Pin To Net: NetName=+5 Pin=JP4-2
+Added Pin To Net: NetName=+5 Pin=JP4-3
+Added Pin To Net: NetName=+5 Pin=JP4-4
+Added Pin To Net: NetName=+5 Pin=JP4-5
+Added Pin To Net: NetName=+5 Pin=JP4-6
+Added Pin To Net: NetName=+5 Pin=JP4-7
+Added Pin To Net: NetName=+5 Pin=JP4-8
+Added Pin To Net: NetName=+5 Pin=JP5-7
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=ESP32?-17
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JP3-1
+Added Pin To Net: NetName=GND Pin=JP3-2
+Added Pin To Net: NetName=GND Pin=JP3-3
+Added Pin To Net: NetName=GND Pin=JP3-4
+Added Pin To Net: NetName=GND Pin=JP3-5
+Added Pin To Net: NetName=GND Pin=JP3-6
+Added Pin To Net: NetName=GND Pin=JP3-7
+Added Pin To Net: NetName=GND Pin=JP3-8
+Added Pin To Net: NetName=GND Pin=JP5-6
+Added Net: Name=GND
+Added Pin To Net: NetName=NetESP32?_1 Pin=ESP32?-1
+Added Pin To Net: NetName=NetESP32?_1 Pin=JP2-1
+Added Net: Name=NetESP32?_1
+Added Pin To Net: NetName=NetESP32?_2 Pin=ESP32?-2
+Added Pin To Net: NetName=NetESP32?_2 Pin=JP2-2
+Added Net: Name=NetESP32?_2
+Added Pin To Net: NetName=NetESP32?_3 Pin=ESP32?-3
+Added Pin To Net: NetName=NetESP32?_3 Pin=JP2-3
+Added Net: Name=NetESP32?_3
+Added Pin To Net: NetName=NetESP32?_4 Pin=ESP32?-4
+Added Pin To Net: NetName=NetESP32?_4 Pin=JP2-4
+Added Net: Name=NetESP32?_4
+Added Pin To Net: NetName=NetESP32?_5 Pin=ESP32?-5
+Added Pin To Net: NetName=NetESP32?_5 Pin=JP2-5
+Added Net: Name=NetESP32?_5
+Added Pin To Net: NetName=NetESP32?_6 Pin=ESP32?-6
+Added Pin To Net: NetName=NetESP32?_6 Pin=JP2-6
+Added Net: Name=NetESP32?_6
+Added Pin To Net: NetName=NetESP32?_7 Pin=ESP32?-7
+Added Pin To Net: NetName=NetESP32?_7 Pin=JP2-7
+Added Net: Name=NetESP32?_7
+Added Pin To Net: NetName=NetESP32?_8 Pin=ESP32?-8
+Added Pin To Net: NetName=NetESP32?_8 Pin=JP2-8
+Added Net: Name=NetESP32?_8
+Added Pin To Net: NetName=NetESP32?_9 Pin=ESP32?-9
+Added Pin To Net: NetName=NetESP32?_9 Pin=JP6-1
+Added Net: Name=NetESP32?_9
+Added Pin To Net: NetName=NetESP32?_10 Pin=ESP32?-10
+Added Pin To Net: NetName=NetESP32?_10 Pin=JP6-2
+Added Net: Name=NetESP32?_10
+Added Pin To Net: NetName=NetESP32?_11 Pin=ESP32?-11
+Added Pin To Net: NetName=NetESP32?_11 Pin=JP6-3
+Added Net: Name=NetESP32?_11
+Added Pin To Net: NetName=NetESP32?_12 Pin=ESP32?-12
+Added Pin To Net: NetName=NetESP32?_12 Pin=JP6-4
+Added Net: Name=NetESP32?_12
+Added Pin To Net: NetName=NetESP32?_13 Pin=ESP32?-13
+Added Pin To Net: NetName=NetESP32?_13 Pin=JP6-5
+Added Net: Name=NetESP32?_13
+Added Pin To Net: NetName=NetESP32?_14 Pin=ESP32?-14
+Added Pin To Net: NetName=NetESP32?_14 Pin=JP6-6
+Added Net: Name=NetESP32?_14
+Added Pin To Net: NetName=NetESP32?_15 Pin=ESP32?-15
+Added Pin To Net: NetName=NetESP32?_15 Pin=JP6-7
+Added Net: Name=NetESP32?_15
+Added Pin To Net: NetName=NetESP32?_18 Pin=ESP32?-18
+Added Pin To Net: NetName=NetESP32?_18 Pin=JP5-5
+Added Net: Name=NetESP32?_18
+Added Pin To Net: NetName=NetESP32?_19 Pin=ESP32?-19
+Added Pin To Net: NetName=NetESP32?_19 Pin=JP5-4
+Added Net: Name=NetESP32?_19
+Added Pin To Net: NetName=NetESP32?_20 Pin=ESP32?-20
+Added Pin To Net: NetName=NetESP32?_20 Pin=JP5-3
+Added Net: Name=NetESP32?_20
+Added Pin To Net: NetName=NetESP32?_21 Pin=ESP32?-21
+Added Pin To Net: NetName=NetESP32?_21 Pin=JP5-2
+Added Net: Name=NetESP32?_21
+Added Pin To Net: NetName=NetESP32?_22 Pin=ESP32?-22
+Added Pin To Net: NetName=NetESP32?_22 Pin=JP5-1
+Added Net: Name=NetESP32?_22
+Added Pin To Net: NetName=NetESP32?_23 Pin=ESP32?-23
+Added Pin To Net: NetName=NetESP32?_23 Pin=JP1-8
+Added Net: Name=NetESP32?_23
+Added Pin To Net: NetName=NetESP32?_24 Pin=ESP32?-24
+Added Pin To Net: NetName=NetESP32?_24 Pin=JP1-7
+Added Net: Name=NetESP32?_24
+Added Pin To Net: NetName=NetESP32?_25 Pin=ESP32?-25
+Added Pin To Net: NetName=NetESP32?_25 Pin=JP1-6
+Added Net: Name=NetESP32?_25
+Added Pin To Net: NetName=NetESP32?_26 Pin=ESP32?-26
+Added Pin To Net: NetName=NetESP32?_26 Pin=JP1-5
+Added Net: Name=NetESP32?_26
+Added Pin To Net: NetName=NetESP32?_27 Pin=ESP32?-27
+Added Pin To Net: NetName=NetESP32?_27 Pin=JP1-4
+Added Net: Name=NetESP32?_27
+Added Pin To Net: NetName=NetESP32?_28 Pin=ESP32?-28
+Added Pin To Net: NetName=NetESP32?_28 Pin=JP1-3
+Added Net: Name=NetESP32?_28
+Added Pin To Net: NetName=NetESP32?_29 Pin=ESP32?-29
+Added Pin To Net: NetName=NetESP32?_29 Pin=JP1-2
+Added Net: Name=NetESP32?_29
+Added Pin To Net: NetName=NetESP32?_30 Pin=ESP32?-30
+Added Pin To Net: NetName=NetESP32?_30 Pin=JP1-1
+Added Net: Name=NetESP32?_30
+Added Member To Class: ClassName=Sheet1 Member=Component C1 1000uF
+Added Member To Class: ClassName=Sheet1 Member=Component C2 220uF
+Added Member To Class: ClassName=Sheet1 Member=Component C3 104
+Added Member To Class: ClassName=Sheet1 Member=Component JDC1 Jac DC
+Added Member To Class: ClassName=Sheet1 Member=Component JP1 JP8 PIN
+Added Member To Class: ClassName=Sheet1 Member=Component JP2 JP8 PIN
+Added Member To Class: ClassName=Sheet1 Member=Component JP3 GND
+Added Member To Class: ClassName=Sheet1 Member=Component JP4 5V
+Added Member To Class: ClassName=Sheet1 Member=Component JP5 JP7 PIN
+Added Member To Class: ClassName=Sheet1 Member=Component JP6 JP7 PIN
+Added Room: Name=Sheet1

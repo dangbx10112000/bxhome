@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\voiceControl"
+		},
+		{
+			"path": "."
+		},
+		{
+			"name": "blink_led",
+			"path": "..\\..\\..\\Users\\ADMIN\\Documents\\PlatformIO\\Projects\\blink_led"
+		},
+		{
+			"name": "part_4",
+			"path": "..\\..\\..\\Users\\ADMIN\\Documents\\PlatformIO\\Projects\\part_4"
+		},
+		{
+			"name": "DATN",
+			"path": "..\\..\\..\\Users\\ADMIN\\Desktop\\DATN\\DATN"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BX_HOME"
+	}
+}
